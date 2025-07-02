@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASHIONSHOP | ONLINE</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="images/favicon.png" rel="icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Header section-->
+  <section id="header">
+    <a href="#"><img src="/images/mylogo.png" class="logo" alt="logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-cart"></i></a></li>
+
+        <!--closing the navbar in mobilr-->
+        <a href="#" id="close"><i class="fa fa-times">Close</i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="far fa-shopping-cart"></i></a>
+      <i id="bar" class="fas fa-outdent">Open</i>
+
+    </div>
+  </section>
+
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+      <img src="images/products/man3.jpg" width="100%" id="MainImg" alt="">
+      <div class="small-img-group">
+        <div class="small-img-col">
+          <img src="images/products/man4.jpg" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+          <img src="images/Boys/boy3.jpg" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+          <img src="images/products/man5.jpg" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+          <img src="images/products/man6.jpg" width="100%" class="small-img" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="single-pro-details">
+      <h6>Home / Jersey</h6>
+      <h4>Soccer Lover's Jersey</h4>
+      <h2>$20.00</h2>
+      <Select>
+        <option>Select Size</option>
+        <option>Small</option>
+        <option>medium</option>
+        <option>Large</option>
+        <option>XL</option>
+        <option>XXL</option>
+      </Select>
+      <input type="number" min="0" title="Please Enter A non-negative number" value="1">
+      <button class="btn">Add To Cart</button>
+      <h4>Product Details</h4>
+      <span>The Away Chelsea Jersey for the season 2025/2026. It has blue stripes & Red. It comes in all sizes and fits
+        you all. Made from elastic and cotton. very durable. its summer time, so come and grab yours</span>
+
+    </div>
+  </section>
+
+  <section id="featured-products" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Come & Get the latest Arrivals From Our Shop, Today!</p>
+    <div class="product-container">
+      <div class="pro">
+        <img src="images/Girls/trouse.jpg">
+        <div class="description">
+          <span>Men's wear</span>
+          <h5>Blue Suit</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$20</h4>
+        </div>
+        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+      </div>
+      <div class="pro">
+        <img src="images/Accesories/printer.png">
+        <div class="description">
+          <span>Accessories</span>
+          <h5>Inkjet Printer</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$20</h4>
+        </div>
+        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+      </div>
+      <div class="pro">
+        <img src="images/products/man3.jpg">
+        <div class="description">
+          <span>Men's wear</span>
+          <h5>Blue Suit</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$20</h4>
+        </div>
+        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+      </div>
+      <div class="pro">
+        <img src="images/Boys/boy7.jpg">
+        <div class="description">
+          <span>Men's wear</span>
+          <h5>Blue Suit</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$20</h4>
+        </div>
+        <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--newsletter section-->
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="news-text">
+      <h4>Sign Up For NewsLetters</h4>
+      <p>Get Email Updates about our latest shop and <span>Special Offers</span></p>
+    </div>
+    <div class="form">
+      <input type="email" placeholder="Enter Your Email Here" required>
+      <button class="normal">Sign Up</button>
+    </div>
+
+
+  </section>
+  <!--footer section-->
+  <footer class="section-p1">
+    <div class="col">
+      <img src="images/mylogo.png" class="logo" alt="">
+      <h4>Contact</h4>
+      <i class="fa-solid fa-location-crosshairs"></i>
+      <p>123 Gava Avenue, B/Urombe, Masvingo</p>
+      <i class="fa-regular fa-envelope"></i>
+      <p>www.zimburgershop.co.zw</p>
+      <i class="fa-solid fa-phone"></i>
+      <p>+263774661934</p>
+      <i class="fa-regular fa-clock"></i>
+      <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+      <i class="fa-regular fa-clock"></i>
+      <p>Sartudays: 8:00 AM - 1:00 PM</p>
+      <i class="fa-regular fa-clock"></i>
+      <p>Sunday: Closed</p>
+      <i class="fa-solid fa-globe"></i>
+      <p>www.tausaitech.co.zw</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab twitter"></i>
+          <i class="fab youtube"></i>
+          <i class="fab tiktok"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlists</a>
+      <a href="#">Track My Orders</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+      <h4>Install Our App</h4>
+      <p>from App store or Google Play</p>
+      <div class="row">
+        <img src="images/favicon.png" alt="">
+        <img src="images/favicon.png" alt="">
+      </div>
+      <p>Secure Payment Gateways</p>
+      <img src="images/1.jpeg" alt="">
+    </div>
+    <div class="copyright">
+      <p>@copyright 2025 dataflow technologies</p>
+    </div>
+  </footer>
+  
+  <!--js for the images to change-->
+  <script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+    smallimg[0].onclick = function(){
+     MainImg.src = smallimg[0].src; 
+    }
+    smallimg[1].onclick = function(){
+     MainImg.src = smallimg[1].src; 
+    }
+    smallimg[2].onclick = function(){
+     MainImg.src = smallimg[2].src; 
+    }
+    smallimg[3].onclick = function(){
+     MainImg.src = smallimg[3].src; 
+    }
+  </script>
+  <script src="script.js"></script>
+  <!-- JAVASCRIPT FOR SCROLL-TRIGGERED ANIMATION -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const heroSection = document.getElementById('hero');
+      const heroElements = document.querySelectorAll('#hero > *');
+
+      // Options for the Intersection Observer
+      const options = {
+        root: null, // observes intersections relative to the viewport
+        rootMargin: '0px',
+        threshold: 0.2 // Callback triggers when 20% of the element is visible
+      };
+
+      // The callback function that runs when visibility changes
+      const callback = (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // If hero section is in view, add 'animate' class to children
+            heroElements.forEach(el => {
+              el.classList.add('animate');
+            });
+          } else {
+            // If hero section is out of view, remove 'animate' class
+            heroElements.forEach(el => {
+              el.classList.remove('animate');
+            });
+          }
+        });
+      };
+
+      // Create the observer
+      const observer = new IntersectionObserver(callback, options);
+
+      // Start observing the hero section
+      observer.observe(heroSection);
+    });
+  </script>
+</body>
+
+</html>

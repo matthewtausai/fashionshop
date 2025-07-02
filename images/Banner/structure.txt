@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce</title>
+  <!--link to my css file-->
+  <link rel="stylesheet" href="style.css">
+  <!--linking font awesome for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!--link swiper css-->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   <script src="https://unpkg.com/swiper-bundle.min.js"></script>
+
+  <!--linking font awesome for icons-->
+  <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!----box-icon link-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <!--remix icons link--> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+
+
+  <!--google-fonts- link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts,gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="heading">
+      <div class="left-heading">
+        <div class="logo">
+          <a href="/user/frondend/index.html"><img src="/images/mylogo.png"></a>
+        </div>
+        <div class="search-bar">
+          <form class="search-form">
+            <input type="search" name="search" placeholder="Search an item here">
+            <input type="submit" name="submit" value="Search">
+          </form>
+        </div>
+      </div>
+      <div class="right-heading">
+        <div class="login-status">
+          <div class="login" id="navlink"><i class="fa-brands fa-sign-in">login</i></div>
+          <div class="register" id="navlink"><i class="fa-brands fa-register">Register</i></div>
+          <div class="logout" id="navlink"><i class="fa-brands fa-sign-out">logout</i></div>
+          <div class="logger-user" id="navlink"><i class="fa-brands fa-logged-user">logged user </i><span
+              class="username" id="navlink">Username</span></div>
+        </div>
+        <div class="cart"><i class="fa-brands fa-shopping-cart">
+            Cart</i>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigation"></div>
+  </header>
+
+  <!--coding the main section-->
+  <main>
+    <section class="banner">
+      <div class="swiper">
+        <div class="swiper-wrapper"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+  </main>
+  <!--the main section ends here-->
+
+  <!--coding the contact us section-->
+    <section class="contact-section" id = "contact">
+      <h2 class="section-title">CONTACT US</h2>
+      <div class="section-content">
+        <ul class="contact-info-list">
+          <li class="contact-info">
+            <i class="fa-solid fa-location-crosshairs"></i>
+           <p>123 Gava Avenue, B/Urombo, Masvingo</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-regular fa-envelope"></i>
+           <p>www.zimcommerce.co.zw</p>
+          </li>
+
+           <li class="contact-info">
+            <i class="fa-solid fa-phone"></i>
+           <p>+263774661934</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+           <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+           <p>Sartudays: 8:00 AM - 1:00 PM</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+           <p>Sunday: Closed</p>
+          </li>
+
+          <li class="contact-info">
+            <i class="fa-solid fa-globe"></i>
+           <p>www.tausaitech.co.zw</p>
+          </li>
+        </ul>
+
+        <form action="#" class="contact-form">
+          <input type="text" placeholder="Your Name" class="form-input" required>
+          <input type="email" placeholder="Your Email" class="form-input" required>
+
+          <textarea placeholder = "Your Message" class="form-input" required></textarea>
+
+          <button class="submit-button">Submit</button>
+
+        </form>
+      </div>
+    </section>
+    <!--the contact us section ends here-->
+ 
+  <!--footer section-->
+
+    <section class="footer" data-aos="fade-down">
+
+        <div class="footer-box">
+            <h3>HELP</h3>
+            <a href="#">FAQ</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Arrange a Return</a>
+            <a href="#">Product Recall</a>
+            <a href="#">Customer Service</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>OUR LOCATIONS</h3>
+            <a href="#">Mutare</a>
+            <a href="#">Harare</a>
+            <a href="#">Masvingo</a>
+            <a href="#">Bulawayo</a>
+            <a href="#">Gweru</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>OTHER SERVICES</h3>
+            <a href="#">Food Shop</a>
+            <a href="#">Nouvelle Coatings</a>
+            <a href="#">Fast Food</a>
+            <a href="#">Burger Shop</a>
+            <a href="#">Butcher</a>
+
+        </div>
+
+        <div class="footer-box">
+            <h3>Social Media Handles</h3>
+            <div class="Social">
+                <a href="https://www.facebook.com/MatthewTausai" target="_blank"><i class="ri-facebook-fill"></i></a>
+                <a href="https://wa.me/+263774661934" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+                <a href="https://www.youtube.com/@matthewtausai" target="_blank"><i class="ri-youtube-fill"></i></a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--copyright-->
+
+    <div class="copyright">
+        <div class="end-text">&copy copyright 2025 by Tausai Matthew
+            <div class="copy-Social">
+                <a href="https://www.facebook.com/MatthewTausai"><i class="ri-facebook-fill"></i></a>
+                <a href="https://wa.me/+263774661934"><i class="ri-whatsapp-fill"></i></a>
+                <a href="https://www.youtube.com/@matthewtausai"><i class="ri-youtube-fill"></i></a>
+                <a href="mailto:matthewtausaimakopa21@gmail.com"><i class="ri-mail-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+            </div>
+
+        </div>
+    </div>
+ 
+  <script src="global.js"></script>
+</body>
+
+</html>

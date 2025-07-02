@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASHIONSHOP | ONLINE</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="images/favicon.png" rel="icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Header section-->
+  <section id="header">
+    <a href="#"><img src="/images/mylogo.png" class="logo" alt="logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-cart"></i></a></li>
+
+        <!--closing the navbar in mobilr-->
+        <a href="#" id="close"><i class="fa fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="far fa-shopping-cart"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+
+    </div>
+  </section>
+  <!--hero section-->
+  <!-- <section id="page-header" class="blog-header">
+    <h2>#Lets_Talk</span></h2>
+    <p>Leave a message, we love to hear from you!</p>
+  </section> -->
+
+  <!--cart section-->
+  <section id="cart" class="section-p1">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Action</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Sub Total</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+         <td><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+
+          <td><img src="images/products/man3.jpg" alt=""></td>
+          <td>Summer Soccer Jersey</td>
+          <td>$20.00</td>
+          <td><input type="number" min="0" value="1"></td>
+          <td>$20.00</td>
+        </tr>
+
+        <tr>
+          <td><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+          <td><img src="images/products/man4.jpg" alt=""></td>
+          <td>Summer Soccer Jersey</td>
+          <td>$20.00</td>
+          <td><input type="number" min="0" value="1"></td>
+          <td>$20.00</td>
+        </tr>
+
+        <tr>
+          <td><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+          <td><img src="images/products/man5.jpg" alt=""></td>
+          <td>Summer Soccer Jersey</td>
+          <td>$20.00</td>
+          <td><input type="number" min="0" value="1"></td>
+          <td>$20.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!--cart add section-->
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+      </div>
+    </div>
+
+    <div id="subtotal">
+      <h3>Cart Totals</h3>
+      <table>
+        <tr>
+          <td>Cart SubTotal</td>
+          <td>$ 3299.00</td>
+        </tr>
+
+        <tr>
+          <td>Shipping</td>
+          <td>Free</td>
+        </tr>
+
+         <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>$3299.00</strong></td>
+        </tr>
+      </table>
+      <button class="normal">Proceed To CheckOut</button>
+    </div>
+  </section>
+
+  <!--footer section-->
+  <footer class="section-p1">
+    <div class="col">
+      <img src="images/mylogo.png" class="logo" alt="">
+      <h4>Contact</h4>
+      <i class="fa-solid fa-location-crosshairs"></i>
+      <p>123 Gava Avenue, B/Urombe, Masvingo</p>
+      <i class="fa-regular fa-envelope"></i>
+      <p>www.zimburgershop.co.zw</p>
+      <i class="fa-solid fa-phone"></i>
+      <p>+263774661934</p>
+      <i class="fa-regular fa-clock"></i>
+      <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+      <i class="fa-regular fa-clock"></i>
+      <p>Sartudays: 8:00 AM - 1:00 PM</p>
+      <i class="fa-regular fa-clock"></i>
+      <p>Sunday: Closed</p>
+      <i class="fa-solid fa-globe"></i>
+      <p>www.tausaitech.co.zw</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab twitter"></i>
+          <i class="fab youtube"></i>
+          <i class="fab tiktok"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlists</a>
+      <a href="#">Track My Orders</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+      <h4>Install Our App</h4>
+      <p>from App store or Google Play</p>
+      <div class="row">
+        <img src="images/favicon.png" alt="">
+        <img src="images/favicon.png" alt="">
+      </div>
+      <p>Secure Payment Gateways</p>
+      <img src="images/1.jpeg" alt="">
+    </div>
+    <div class="copyright">
+      <p>@copyright 2025 dataflow technologies</p>
+    </div>
+  </footer>
+
+  <!--linking swiper script-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+  <!-- JAVASCRIPT FOR SCROLL-TRIGGERED ANIMATION -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const heroSection = document.getElementById('hero');
+      const heroElements = document.querySelectorAll('#hero > *');
+
+      // Options for the Intersection Observer
+      const options = {
+        root: null, // observes intersections relative to the viewport
+        rootMargin: '0px',
+        threshold: 0.2 // Callback triggers when 20% of the element is visible
+      };
+
+      // The callback function that runs when visibility changes
+      const callback = (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // If hero section is in view, add 'animate' class to children
+            heroElements.forEach(el => {
+              el.classList.add('animate');
+            });
+          } else {
+            // If hero section is out of view, remove 'animate' class
+            heroElements.forEach(el => {
+              el.classList.remove('animate');
+            });
+          }
+        });
+      };
+
+      // Create the observer
+      const observer = new IntersectionObserver(callback, options);
+
+      // Start observing the hero section
+      observer.observe(heroSection);
+    });
+  </script>
+</body>
+
+</html>
