@@ -66,25 +66,24 @@ const swiper = new Swiper('.swiper', {
   }
 });
 
-//add event listener
-
-document.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', event=> {
-    //prevent default link behaviour
+document.body.addEventListener('click', event => {
+  const link = event.target.closest('a');
+  if (link) {
+    // Prevent default link behavior
     event.preventDefault();
 
-    //add loading animation
+    // Add loading animation
     const loadingElement = document.createElement('div');
     loadingElement.classList.add('loading');
     const loadingAnimation = document.createElement('div');
     loadingAnimation.classList.add('loading-animation');
-    loadingAnimation.innerHTML = svggnbasding;
+    loadingAnimation.innerHTML = '<svg width="40" height="40" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" stroke-width="4" stroke="#333" fill="none" stroke-dasharray="113.097" stroke-dashoffset="0" /></svg>';
     loadingElement.appendChild(loadingAnimation);
     document.body.appendChild(loadingElement);
 
-    //waiting for animation to finish before loading a new page
+    // Wait for animation to finish before loading new page
     setTimeout(() => {
       window.location.href = link.href;
-    }, 1000);
-    })
+    }, 1500); // Adjust as needed
+  }
 });
